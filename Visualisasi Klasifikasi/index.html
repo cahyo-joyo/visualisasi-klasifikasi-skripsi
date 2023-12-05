@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Visualisasi Klasifikasi</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            .hidden {
+              display: none;
+            }
+          </style>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">Hasil Visualisasi</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#visualisasi">Visualisasi</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#klasifikasi">Klasifikasi</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">Tampilan Visualisasi</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+            </div>
+        </header>
+        <!-- visualisasi Section-->
+        <section class="page-section visualisasi" id="visualisasi">
+            <div class="container">
+                    <!-- visualisasi Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">visualisasi Grafik</h2>
+                <!-- visualisasi Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- visualisasi Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="visualisasi-item mx-auto" data-bs-toggle="modal" data-bs-target="#visualisasiModal4">
+                            <div class="visualisasi-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="visualisasi-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <h3 class="masthead-heading text-center text-uppercase mb-0">Grafik label</h1>
+                                <br>
+                            <img class="img-fluid" src="assets/img/banyak tweet label.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- visualisasi Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="visualisasi-item mx-auto" data-bs-toggle="modal" data-bs-target="#visualisasiModal5">
+                            <div class="visualisasi-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="visualisasi-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <h3 class="masthead-heading text-center text-uppercase mb-0">Grafik tanggal</h1>
+                                <br>
+                            <img class="img-fluid" src="assets/img/banyak tweet tanggal.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- visualisasi Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="visualisasi-item mx-auto" data-bs-toggle="modal" data-bs-target="#visualisasiModal6">
+                            <div class="visualisasi-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="visualisasi-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <h3 class="masthead-heading text-center text-uppercase mb-0">Grafik kata</h1>
+                                <br>
+                            <img class="img-fluid" src="assets/img/banyak tweet kata.png" alt="..." />
+                        </div>
+                    </div>    
+                <!-- visualisasi Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">visualisasi wordcloud</h2>
+                    <!-- visualisasi Item 4-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="visualisasi-item mx-auto" data-bs-toggle="modal" data-bs-target="#visualisasiModal1">
+                            <div class="visualisasi-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="visualisasi-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <h3 class="masthead-heading text-center text-uppercase mb-0">sentimen positif</h1>
+                                <br>
+                            <img class="img-fluid" src="assets/img/wordcloud positif.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- visualisasi Item 5-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="visualisasi-item mx-auto" data-bs-toggle="modal" data-bs-target="#visualisasiModal2">
+                            <div class="visualisasi-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="visualisasi-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <h3 class="masthead-heading text-center text-uppercase mb-0">sentimen negatif</h1>
+                                <br>
+                            <img class="img-fluid" src="assets/img/wordcloud negatif.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- visualisasi Item 6-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="visualisasi-item mx-auto" data-bs-toggle="modal" data-bs-target="#visualisasiModal3">
+                            <div class="visualisasi-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="visualisasi-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <h3 class="masthead-heading text-center text-uppercase mb-0">sentimen netral</h1>
+                                <br>
+                            <img class="img-fluid" src="assets/img/wordcloud netral.png" alt="..." />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- klasifikasi Section-->
+        <section class="page-section bg-primary text-white mb-0" id="klasifikasi">
+            <div class="container">
+                <div class="section text-center">
+                <!-- klasifikasi Section Heading-->
+                <h3 class="page-section-heading text-center text-uppercase text-white">Masukkan teks yang akan dikalsifikasikan</h3>
+                <!-- klasifikasi Section Content-->
+                <form>
+                    <div class="form-group">
+                      <textarea
+                        class="form-control"
+                        id="tweet"
+                        name="tweet"
+                        cols="30"
+                        rows="10"
+                      ></textarea>
+                      <button
+                        type="button"
+                        id="submit"
+                        class="btn btn-success mt-3"
+                        onclick="kirim()"
+                      >
+                        Submit
+                      </button>
+                    </div>
+                  </form>
+                  <br>
+                  <!-- <div id="animation" class="hidden">
+                    <img src="loading.gif" alt="" style="max-height: 100px" />
+                  </div> -->
+                  <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                      <div
+                        class="alert alert-danger hidden sentimen"
+                        role="alert"
+                        id="neg"
+                      >
+                      <h4 class="alert-heading">NEGATIF</h4>
+                      <p>Hasil kata yang anda masukkan bernilai Negatif</p>
+                      <hr>
+                      <p class="mb-0">Auto label ini berdasarkan data tweet dengan kata kunci "PTM" dan "pembelajaran tatap muka" dengan metode SVM model RBF</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4"></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                      <div
+                        class="alert alert-success hidden sentimen"
+                        role="alert"
+                        id="pos"
+                      >
+                      <h4 class="alert-heading">POSITIF</h4>
+                      <p>Hasil kata yang anda masukkan bernilai Positif</p>
+                      <hr>
+                      <p class="mb-0">Auto label ini berdasarkan data tweet dengan kata kunci "PTM" dan "pembelajaran tatap muka" dengan metode SVM model RBF</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4"></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                      <div
+                        class="alert alert-warning hidden sentimen"
+                        role="alert"
+                        id="neg"
+                      >
+                      <h4 class="alert-heading">NETRAL</h4>
+                      <p>Hasil kata yang anda masukkan bernilai Netral</p>
+                      <hr>
+                      <p class="mb-0">Auto label ini berdasarkan data tweet dengan kata kunci "PTM" dan "pembelajaran tatap muka" dengan metode SVM model RBF</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4"></div>
+                  </div>
+                </div>
+            </div>
+        </section>
+        <!-- visualisasi Modals-->
+        <!-- visualisasi Modal 1-->
+        <div class="visualisasi-modal modal fade" id="visualisasiModal1" tabindex="-1" aria-labelledby="visualisasiModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- visualisasi Modal - Title-->
+                                    <h2 class="visualisasi-modal-title text-secondary text-uppercase mb-0">Wordcloud Sentimen Positif</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- visualisasi Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/wordcloud positif.png" alt="..." />
+                                    <!-- visualisasi Modal - Text-->
+                                    <p class="mb-4">Berikut adalah hasil dari word cloud positif yang dapat dilihat yaitu kumpulan kata-kata yang masuk kedalam class atau label positif</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- visualisasi Modal 2-->
+        <div class="visualisasi-modal modal fade" id="visualisasiModal2" tabindex="-1" aria-labelledby="visualisasiModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- visualisasi Modal - Title-->
+                                    <h2 class="visualisasi-modal-title text-secondary text-uppercase mb-0">Wordcloud Sentimen Negatif</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- visualisasi Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/wordcloud negatif.png" alt="..." />
+                                    <!-- visualisasi Modal - Text-->
+                                    <p class="mb-4">Berikut adalah hasil dari word cloud negatif yang dapat dilihat yaitu kumpulan kata-kata yang masuk kedalam class atau label negatif</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- visualisasi Modal 3-->
+        <div class="visualisasi-modal modal fade" id="visualisasiModal3" tabindex="-1" aria-labelledby="visualisasiModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- visualisasi Modal - Title-->
+                                    <h2 class="visualisasi-modal-title text-secondary text-uppercase mb-0">Wordcloud Sentimen Netral</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- visualisasi Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/wordcloud netral.png" alt="..." />
+                                    <!-- visualisasi Modal - Text-->
+                                    <p class="mb-4">Berikut adalah hasil dari word cloud positif yang dapat dilihat yaitu kumpulan kata-kata yang masuk kedalam class atau label positif</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- visualisasi Modal 4-->
+        <div class="visualisasi-modal modal fade" id="visualisasiModal4" tabindex="-1" aria-labelledby="visualisasiModal4" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- visualisasi Modal - Title-->
+                                    <h2 class="visualisasi-modal-title text-secondary text-uppercase mb-0">Grafik data berdasarkan label</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- visualisasi Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/banyak tweet label.png" alt="..." />
+                                    <!-- visualisasi Modal - Text-->
+                                    <p class="mb-4">Berikut adalah grafik batang yang menampilkan banyaknya data tweet berdasarkan class atau label</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- visualisasi Modal 5-->
+        <div class="visualisasi-modal modal fade" id="visualisasiModal5" tabindex="-1" aria-labelledby="visualisasiModal5" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- visualisasi Modal - Title-->
+                                    <h2 class="visualisasi-modal-title text-secondary text-uppercase mb-0">Grafik data berdasarkan waktu</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- visualisasi Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/banyak tweet tanggal.png" alt="..." />
+                                    <!-- visualisasi Modal - Text-->
+                                    <p class="mb-4">Berikut adalah grafik garis yang menampilkan banyaknya data tweet berdasarkan waktu atau tanggal</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- visualisasi Modal 6-->
+        <div class="visualisasi-modal modal fade" id="visualisasiModal6" tabindex="-1" aria-labelledby="visualisasiModal6" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- visualisasi Modal - Title-->
+                                    <h2 class="visualisasi-modal-title text-secondary text-uppercase mb-0">Grafik data berdasarkan kata</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- visualisasi Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/banyak tweet kata.png" alt="..." />
+                                    <!-- visualisasi Modal - Text-->
+                                    <p class="mb-4">Berikut adalah grafik batang yang menampilkan banyaknya data tweet berdasarkan kata paling sering muncul</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"
+  ></script>
+  <script lang="javascript" type="text/javascript">
+    function kirim() {
+      var tweet = $("#tweet").val();
+      $(".sentimen").addClass("hidden");
+      $("#animation").removeClass("hidden");
+      $.ajax({
+        url: "cobacoba.php",
+        type: "POST",
+        data: { tweet: tweet },
+        cache: false,
+        success: function (respon) {
+          $("#animation").addClass("hidden");
+          if (respon.trim() == "Negatif") {
+            $("#neg").removeClass("hidden");
+          } else if (respon.trim() == "Positif") {
+            $("#pos").removeClass("hidden");
+          } else if (respon.trim() == "Netral") {
+            $("#net").removeClass("hidden");
+          }
+        },
+      });
+    }
+  </script>
+    </body>
+</html>
